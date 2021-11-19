@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "RootAntdeMac-mini.local",
+    "children" : [ {
+      "name" : "31356-MainThread",
+      "children" : [ {
+        "name" : "test_mm",
+        "uid" : "e586be7066887b96",
+        "parentUid" : "09cc0d8be8a87920450a6f3c0fe65603",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892665,
+          "stop" : 1637215892665,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ff",
+        "uid" : "902719ee91e5f9be",
+        "parentUid" : "09cc0d8be8a87920450a6f3c0fe65603",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892669,
+          "stop" : 1637215892669,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tt",
+        "uid" : "acdc71380fc774ea",
+        "parentUid" : "09cc0d8be8a87920450a6f3c0fe65603",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892662,
+          "stop" : 1637215892662,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09cc0d8be8a87920450a6f3c0fe65603"
+    } ],
+    "uid" : "33ea7fe9417c8629c08a0c489db92589"
+  } ]
+}

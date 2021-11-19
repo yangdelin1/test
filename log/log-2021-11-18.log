@@ -1,0 +1,4 @@
+[2021-11-18 14:18:33.667391] [INFO] [logger.py] [<module>] [66] 测试日志模块
+[2021-11-18 16:05:03.642980] [DEBUG] [logger.py] [<module>] [66] 测试日志模块
+[2021-11-18 16:13:02.115488] [INFO] [test_test.py] [setup_module] [9] 测试日志模块
+[2021-11-18 16:13:02.130773] [INFO] [test_test.py] [teardown_module] [14] 测试日志模块

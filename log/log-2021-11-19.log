@@ -1,0 +1,257 @@
+[2021-11-19 16:02:56.214524] [INFO] [rest_client.py] [request_log] [52] 接口请求地址 ==>> 
+[2021-11-19 16:02:56.215630] [INFO] [rest_client.py] [request_log] [53] 接口请求方式 ==>> 
+[2021-11-19 16:02:56.215833] [INFO] [rest_client.py] [request_log] [55] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg"
+}
+[2021-11-19 16:02:56.215989] [INFO] [rest_client.py] [request_log] [56] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:02:56.216122] [INFO] [rest_client.py] [request_log] [57] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:02:56.216261] [INFO] [rest_client.py] [request_log] [58] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:02:56.216375] [INFO] [rest_client.py] [request_log] [59] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:02:56.216497] [INFO] [rest_client.py] [request_log] [60] 接口 cookies 参数 ==>> null
+[2021-11-19 16:04:38.755140] [INFO] [rest_client.py] [request_log] [52] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:04:38.755728] [INFO] [rest_client.py] [request_log] [53] 接口请求方式 ==>> POST
+[2021-11-19 16:04:38.755952] [INFO] [rest_client.py] [request_log] [55] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg"
+}
+[2021-11-19 16:04:38.756114] [INFO] [rest_client.py] [request_log] [56] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:04:38.756251] [INFO] [rest_client.py] [request_log] [57] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:04:38.756391] [INFO] [rest_client.py] [request_log] [58] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:04:38.756508] [INFO] [rest_client.py] [request_log] [59] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:04:38.756632] [INFO] [rest_client.py] [request_log] [60] 接口 cookies 参数 ==>> null
+[2021-11-19 16:15:54.086237] [INFO] [rest_client.py] [request_log] [54] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:15:54.086925] [INFO] [rest_client.py] [request_log] [55] 接口请求方式 ==>> POST
+[2021-11-19 16:15:54.087147] [INFO] [rest_client.py] [request_log] [57] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg"
+}
+[2021-11-19 16:15:54.087297] [INFO] [rest_client.py] [request_log] [58] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:15:54.087431] [INFO] [rest_client.py] [request_log] [59] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:15:54.087569] [INFO] [rest_client.py] [request_log] [60] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:15:54.087684] [INFO] [rest_client.py] [request_log] [61] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:15:54.087908] [INFO] [rest_client.py] [request_log] [62] 接口 cookies 参数 ==>> null
+[2021-11-19 16:23:18.961733] [INFO] [rest_client.py] [request_log] [54] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:23:18.962738] [INFO] [rest_client.py] [request_log] [55] 接口请求方式 ==>> POST
+[2021-11-19 16:23:18.963132] [INFO] [rest_client.py] [request_log] [57] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg"
+}
+[2021-11-19 16:23:18.963550] [INFO] [rest_client.py] [request_log] [58] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:23:18.963902] [INFO] [rest_client.py] [request_log] [59] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:23:18.964156] [INFO] [rest_client.py] [request_log] [60] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:23:18.964291] [INFO] [rest_client.py] [request_log] [61] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:23:18.964426] [INFO] [rest_client.py] [request_log] [62] 接口 cookies 参数 ==>> null
+[2021-11-19 16:25:32.604316] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:25:32.606841] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 16:25:32.607261] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg"
+}
+[2021-11-19 16:25:32.608314] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:25:32.608774] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:25:32.610210] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:25:32.610484] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:25:32.610751] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 16:26:52.858813] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:26:52.859149] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 16:26:52.859367] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+}
+[2021-11-19 16:26:52.859563] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:26:52.859712] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:26:52.859862] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:26:52.859984] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:26:52.860211] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 16:28:26.285635] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 16:28:26.286191] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 16:28:26.286393] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 16:28:26.286560] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:28:26.286704] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 16:28:26.286853] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 16:28:26.286992] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 16:28:26.287214] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 17:05:59.959243] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sgucenter/user/admin/modify/basic
+[2021-11-19 17:05:59.960273] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 17:05:59.960543] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 17:05:59.960799] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:05:59.961403] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 17:05:59.961915] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:05:59.962422] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 17:05:59.962845] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 17:06:22.526302] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-19 17:06:22.527071] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 17:06:22.527476] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 17:06:22.527789] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:06:22.528033] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 17:06:22.528221] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:06:22.528358] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 17:06:22.528616] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 17:07:19.240351] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-19 17:07:31.513257] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 17:07:55.074017] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 17:08:40.591633] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-19 17:08:40.592196] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 17:08:40.593015] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 17:08:40.593416] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:08:40.593711] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 17:08:40.594111] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:08:40.594347] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 17:08:40.594600] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 17:22:31.778966] [INFO] [rest_client.py] [request_log] [57] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-19 17:22:31.779661] [INFO] [rest_client.py] [request_log] [58] 接口请求方式 ==>> POST
+[2021-11-19 17:22:31.779886] [INFO] [rest_client.py] [request_log] [60] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-19 17:22:31.780048] [INFO] [rest_client.py] [request_log] [61] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:22:31.780187] [INFO] [rest_client.py] [request_log] [62] 接口请求体 data 参数 ==>> null
+[2021-11-19 17:22:31.780336] [INFO] [rest_client.py] [request_log] [63] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-19 17:22:31.780461] [INFO] [rest_client.py] [request_log] [64] 接口上传附件 files 参数 ==>> None
+[2021-11-19 17:22:31.780701] [INFO] [rest_client.py] [request_log] [65] 接口 cookies 参数 ==>> null
+[2021-11-19 17:22:32.099797] [INFO] [user.py] [get_edit_user_info] [24] 注册用户 ==>> 返回结果 ==>> {"code":1001,"data":"Session expired","message":"session_expired","messageDetail":"Session expired","success":false}

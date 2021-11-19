@@ -1,0 +1,72 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "模型测试模块",
+    "children" : [ {
+      "name" : "测试test_tt",
+      "children" : [ {
+        "name" : "test_tt",
+        "uid" : "acdc71380fc774ea",
+        "parentUid" : "4d809da1f0558fbe91482eef873916b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892662,
+          "stop" : 1637215892662,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d809da1f0558fbe91482eef873916b4"
+    }, {
+      "name" : "测试test_mm",
+      "children" : [ {
+        "name" : "test_mm",
+        "uid" : "e586be7066887b96",
+        "parentUid" : "a2a454c8732c4abf9cfa85cba91907ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892665,
+          "stop" : 1637215892665,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2a454c8732c4abf9cfa85cba91907ed"
+    }, {
+      "name" : "测试test_ff",
+      "children" : [ {
+        "name" : "test_ff",
+        "uid" : "902719ee91e5f9be",
+        "parentUid" : "20ad2512839ae599f3f268a85fb89964",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637215892669,
+          "stop" : 1637215892669,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20ad2512839ae599f3f268a85fb89964"
+    } ],
+    "uid" : "d246df41f9f3f4b34e84c2c7fb4702dd"
+  } ]
+}
