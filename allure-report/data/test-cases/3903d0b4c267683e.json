@@ -1,0 +1,130 @@
+{
+  "uid" : "3903d0b4c267683e",
+  "name" : "test_update_user",
+  "fullName" : "testcase.api_test.test_user.TestUpdate#test_update_user",
+  "historyId" : "79d92806f0df6c2bb75e3e624bbd585c",
+  "time" : {
+    "start" : 1637652864523,
+    "stop" : 1637652864774,
+    "duration" : 251
+  },
+  "description" : "该用例是针对用户修改接口的测试",
+  "descriptionHtml" : "<p>该用例是针对用户修改接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "financier_login",
+    "time" : {
+      "start" : 1637652863880,
+      "stop" : 1637652864522,
+      "duration" : 642
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例是针对用户修改接口的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置登录步骤 ==>>账号登录",
+      "time" : {
+        "start" : 1637652864523,
+        "stop" : 1637652864524,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "admin_user",
+        "value" : "'12341'"
+      }, {
+        "name" : "token",
+        "value" : "<RequestsCookieJar[Cookie(version=0, name='locale', value='en-us', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1669210464, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None'}, rfc2109=False), Cookie(version=0, name='session_token', value='{\"token\":\"JDJhJDEyJG9lTDN4YVpRdFZwRTVCQ2p4emx1Qy5sdEZaS3ZRUHFIUlZET3ZrVTY5U2dSeXV1LzhIMzJH\"}', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637656464, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False), Cookie(version=0, name='session_token.sig', value='DgFsJUbT4WNpAJ3P1W-y0P3hP31mp1R83a-BeNJAnAU', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637656464, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False)]>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户修改个人信息模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用例修改用户信息"
+  }, {
+    "name" : "epic",
+    "value" : "针对单个接口的测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('financier_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUpdate"
+  }, {
+    "name" : "host",
+    "value" : "RootAntdeMac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "6614-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_test.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "test_case"
+  }, {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('financier_login')" ]
+  },
+  "source" : "3903d0b4c267683e.json",
+  "parameterValues" : [ ]
+}

@@ -7,19 +7,19 @@
       "name" : "测试test_tt",
       "children" : [ {
         "name" : "test_tt",
-        "uid" : "acdc71380fc774ea",
+        "uid" : "a9d9b4ee1dfb82ab",
         "parentUid" : "4d809da1f0558fbe91482eef873916b4",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892662,
-          "stop" : 1637215892662,
+          "start" : 1637653370347,
+          "stop" : 1637653370347,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -28,19 +28,19 @@
       "name" : "测试test_mm",
       "children" : [ {
         "name" : "test_mm",
-        "uid" : "e586be7066887b96",
+        "uid" : "389bbb48a2ca9b48",
         "parentUid" : "a2a454c8732c4abf9cfa85cba91907ed",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892665,
-          "stop" : 1637215892665,
-          "duration" : 0
+          "start" : 1637653370350,
+          "stop" : 1637653370351,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -49,24 +49,53 @@
       "name" : "测试test_ff",
       "children" : [ {
         "name" : "test_ff",
-        "uid" : "902719ee91e5f9be",
+        "uid" : "8d15d251a90dda0e",
         "parentUid" : "20ad2512839ae599f3f268a85fb89964",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892669,
-          "stop" : 1637215892669,
+          "start" : 1637653370358,
+          "stop" : 1637653370358,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "20ad2512839ae599f3f268a85fb89964"
     } ],
     "uid" : "d246df41f9f3f4b34e84c2c7fb4702dd"
+  }, {
+    "name" : "针对单个接口的测试",
+    "children" : [ {
+      "name" : "用户修改个人信息模块",
+      "children" : [ {
+        "name" : "用例修改用户信息",
+        "children" : [ {
+          "name" : "test_update_user",
+          "uid" : "c29fb9a7c48f396d",
+          "parentUid" : "4b4e1349600742b6f593c060cf200c3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637653371162,
+            "stop" : 1637653371606,
+            "duration" : 444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b4e1349600742b6f593c060cf200c3f"
+      } ],
+      "uid" : "052bfc443f9f957149a361a6f9623a92"
+    } ],
+    "uid" : "6b8f2f790c75a706c4fafda03d54caa6"
   } ]
 }

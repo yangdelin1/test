@@ -1,4 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Nov 18 14:11:32 CST 2021","Thu Nov 18 14:11:32 CST 2021","0","","test_test","TestModel","","","test_mm",""
-"passed","Thu Nov 18 14:11:32 CST 2021","Thu Nov 18 14:11:32 CST 2021","0","","test_test","TestModel","","","test_ff",""
-"passed","Thu Nov 18 14:11:32 CST 2021","Thu Nov 18 14:11:32 CST 2021","0","","test_test","TestModel","","","test_tt",""
+"passed","Tue Nov 23 15:42:50 CST 2021","Tue Nov 23 15:42:50 CST 2021","0","","test_test","TestModel","","","test_tt",""
+"passed","Tue Nov 23 15:42:50 CST 2021","Tue Nov 23 15:42:50 CST 2021","0","","test_test","TestModel","","","test_ff",""
+"passed","Tue Nov 23 15:42:51 CST 2021","Tue Nov 23 15:42:51 CST 2021","444","testcase.api_test","test_user","TestUpdate","","","test_update_user","该用例是针对用户修改接口的测试"
+"passed","Tue Nov 23 15:42:50 CST 2021","Tue Nov 23 15:42:50 CST 2021","1","","test_test","TestModel","","","test_mm",""

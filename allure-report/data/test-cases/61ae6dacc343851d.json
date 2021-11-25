@@ -1,0 +1,121 @@
+{
+  "uid" : "61ae6dacc343851d",
+  "name" : "test_tt",
+  "fullName" : "test_test.TestModel#test_tt",
+  "historyId" : "4a1d171b8961c98aedb374592f4282fe",
+  "time" : {
+    "start" : 1637650971428,
+    "stop" : 1637650971428,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_module_fixture_test_test",
+    "time" : {
+      "start" : 1637650971424,
+      "stop" : 1637650971425,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_TestModel",
+    "time" : {
+      "start" : 1637650971425,
+      "stop" : 1637650971425,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestModel::0",
+    "time" : {
+      "start" : 1637650971429,
+      "stop" : 1637650971429,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_module_fixture_test_test::0",
+    "time" : {
+      "start" : 1637650971438,
+      "stop" : 1637650971439,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试test_tt"
+  }, {
+    "name" : "feature",
+    "value" : "模型测试模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestModel"
+  }, {
+    "name" : "host",
+    "value" : "RootAntdeMac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "6078-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61ae6dacc343851d.json",
+  "parameterValues" : [ ]
+}

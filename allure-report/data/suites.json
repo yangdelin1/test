@@ -7,58 +7,87 @@
       "name" : "TestModel",
       "children" : [ {
         "name" : "test_tt",
-        "uid" : "acdc71380fc774ea",
+        "uid" : "a9d9b4ee1dfb82ab",
         "parentUid" : "5007da0107ee24ee555e76e98611127e",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892662,
-          "stop" : 1637215892662,
+          "start" : 1637653370347,
+          "stop" : 1637653370347,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_mm",
-        "uid" : "e586be7066887b96",
+        "uid" : "389bbb48a2ca9b48",
         "parentUid" : "5007da0107ee24ee555e76e98611127e",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892665,
-          "stop" : 1637215892665,
-          "duration" : 0
+          "start" : 1637653370350,
+          "stop" : 1637653370351,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_ff",
-        "uid" : "902719ee91e5f9be",
+        "uid" : "8d15d251a90dda0e",
         "parentUid" : "5007da0107ee24ee555e76e98611127e",
         "status" : "passed",
         "time" : {
-          "start" : 1637215892669,
-          "stop" : 1637215892669,
+          "start" : 1637653370358,
+          "stop" : 1637653370358,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 7,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
       "uid" : "5007da0107ee24ee555e76e98611127e"
     } ],
     "uid" : "a3686e9f486c3fd47c26664d4b9a0025"
+  }, {
+    "name" : "testcase.api_test",
+    "children" : [ {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "TestUpdate",
+        "children" : [ {
+          "name" : "test_update_user",
+          "uid" : "c29fb9a7c48f396d",
+          "parentUid" : "bc07101272d6a5a00c206dc67899b2f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1637653371162,
+            "stop" : 1637653371606,
+            "duration" : 444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 7,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bc07101272d6a5a00c206dc67899b2f7"
+      } ],
+      "uid" : "334ae3796f92cec6c52dd18d1990b509"
+    } ],
+    "uid" : "6a2eccb7279947725cddb667e056cbb4"
   } ]
 }

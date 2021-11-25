@@ -1,0 +1,189 @@
+{
+  "uid" : "c29fb9a7c48f396d",
+  "name" : "test_update_user",
+  "fullName" : "testcase.api_test.test_user.TestUpdate#test_update_user",
+  "historyId" : "79d92806f0df6c2bb75e3e624bbd585c",
+  "time" : {
+    "start" : 1637653371162,
+    "stop" : 1637653371606,
+    "duration" : 444
+  },
+  "description" : "该用例是针对用户修改接口的测试",
+  "descriptionHtml" : "<p>该用例是针对用户修改接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "financier_login",
+    "time" : {
+      "start" : 1637653370368,
+      "stop" : 1637653371161,
+      "duration" : 793
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例是针对用户修改接口的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置登录步骤 ==>>账号登录",
+      "time" : {
+        "start" : 1637653371163,
+        "stop" : 1637653371163,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "admin_user",
+        "value" : "'12341'"
+      }, {
+        "name" : "token",
+        "value" : "<RequestsCookieJar[Cookie(version=0, name='locale', value='en-us', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1669210971, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None'}, rfc2109=False), Cookie(version=0, name='session_token', value='{\"token\":\"JDJhJDEyJDJpdEJaTTcuNFlXVnZ4alpERWJpMC5xUG1SUkFheEVwM2pDNWE5MjEycHZUa29vdnNLWERt\"}', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637656971, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False), Cookie(version=0, name='session_token.sig', value='rdAw5ybKJojYabXvj1UOplGJqXKZSe0gzhPeC6LaSU0', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637656971, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False)]>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "针对单个接口的测试"
+  }, {
+    "name" : "story",
+    "value" : "用例修改用户信息"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户修改个人信息模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUpdate"
+  }, {
+    "name" : "host",
+    "value" : "RootAntdeMac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "6798-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_test.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "test_case"
+  }, {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "36d8669c065fc08e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637653092821,
+        "stop" : 1637653093266,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "e78178546cca26f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637652969052,
+        "stop" : 1637652970747,
+        "duration" : 1695
+      }
+    }, {
+      "uid" : "3903d0b4c267683e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637652864523,
+        "stop" : 1637652864774,
+        "duration" : 251
+      }
+    }, {
+      "uid" : "c31d9f2847ba20bd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ResultBase' object has no attribute 'get'",
+      "time" : {
+        "start" : 1637652232331,
+        "stop" : 1637652232787,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "41e2c15a08a56993",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not callable",
+      "time" : {
+        "start" : 1637652037568,
+        "stop" : 1637652037568,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c81396a1f7009af",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('login_fixture', <FixtureRequest for <Function test_update_user>>)",
+      "time" : {
+        "start" : 1637651969152,
+        "stop" : 1637651969152,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c59f61227ccbd02f",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('login_fixture', <FixtureRequest for <Function test_update_user>>)",
+      "time" : {
+        "start" : 1637650971442,
+        "stop" : 1637650971442,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c29fb9a7c48f396d.json",
+  "parameterValues" : [ ]
+}

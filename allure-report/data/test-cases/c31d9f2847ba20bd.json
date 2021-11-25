@@ -1,0 +1,134 @@
+{
+  "uid" : "c31d9f2847ba20bd",
+  "name" : "test_update_user",
+  "fullName" : "testcase.api_test.test_user.TestUpdate#test_update_user",
+  "historyId" : "79d92806f0df6c2bb75e3e624bbd585c",
+  "time" : {
+    "start" : 1637652232331,
+    "stop" : 1637652232787,
+    "duration" : 456
+  },
+  "description" : "该用例是针对用户修改接口的测试",
+  "descriptionHtml" : "<p>该用例是针对用户修改接口的测试</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'ResultBase' object has no attribute 'get'",
+  "statusTrace" : "self = <testcase.api_test.test_user.TestUpdate object at 0x10dc70220>\nfinancier_login = <Response [200]>\n\n    @allure.story(\"用例修改用户信息\")\n    @allure.description(\"该用例是针对用户修改接口的测试\")\n    @allure.issue(\"/ucenter/user/admin/modify/basic\", name=\"修改用户信息\")\n    @allure.testcase(\"/ucenter/user/admin/modify/basic\", name=\"修改用户信息\")\n    def test_update_user(self,financier_login):\n        logger.info(\"*************** 开始执行用例 ***************\")\n        user_info = financier_login\n        admin_user = user_info.json().get(\"data\").get(\"first_name\")\n        token = user_info.cookies\n        step_login(admin_user, token)\n        result = get_edit_user_info(token)\n>       assert result.get(\"message\") == \"success\"\nE       AttributeError: 'ResultBase' object has no attribute 'get'\n\ntestcase/api_test/test_user.py:31: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "financier_login",
+    "time" : {
+      "start" : 1637652231530,
+      "stop" : 1637652232331,
+      "duration" : 801
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例是针对用户修改接口的测试",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'ResultBase' object has no attribute 'get'",
+    "statusTrace" : "self = <testcase.api_test.test_user.TestUpdate object at 0x10dc70220>\nfinancier_login = <Response [200]>\n\n    @allure.story(\"用例修改用户信息\")\n    @allure.description(\"该用例是针对用户修改接口的测试\")\n    @allure.issue(\"/ucenter/user/admin/modify/basic\", name=\"修改用户信息\")\n    @allure.testcase(\"/ucenter/user/admin/modify/basic\", name=\"修改用户信息\")\n    def test_update_user(self,financier_login):\n        logger.info(\"*************** 开始执行用例 ***************\")\n        user_info = financier_login\n        admin_user = user_info.json().get(\"data\").get(\"first_name\")\n        token = user_info.cookies\n        step_login(admin_user, token)\n        result = get_edit_user_info(token)\n>       assert result.get(\"message\") == \"success\"\nE       AttributeError: 'ResultBase' object has no attribute 'get'\n\ntestcase/api_test/test_user.py:31: AttributeError",
+    "steps" : [ {
+      "name" : "前置登录步骤 ==>>账号登录",
+      "time" : {
+        "start" : 1637652232332,
+        "stop" : 1637652232333,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "admin_user",
+        "value" : "'12341'"
+      }, {
+        "name" : "token",
+        "value" : "<RequestsCookieJar[Cookie(version=0, name='locale', value='en-us', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1669209832, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None'}, rfc2109=False), Cookie(version=0, name='session_token', value='{\"token\":\"JDJhJDEyJDFPRm5wdU56Y2pzL2xUT1JDdUZWcU85RTQ0cEtyQW1pV0xKeUJLQ3RCTnc0Z2J1R1hRRkpp\"}', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637655832, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False), Cookie(version=0, name='session_token.sig', value='r6X-xTsw_QRi61GrTkuqZ6imCM24Uq-Dm3gNRvc_vhM', port=None, port_specified=False, domain='dev-api.banco.com.sg', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure='true', expires=1637655832, discard=False, comment=None, comment_url=None, rest={'SameSite': 'None', 'samesite': 'none', 'httponly': None}, rfc2109=False)]>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例修改用户信息"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户修改个人信息模块"
+  }, {
+    "name" : "epic",
+    "value" : "针对单个接口的测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('financier_login')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUpdate"
+  }, {
+    "name" : "host",
+    "value" : "RootAntdeMac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "6402-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_test.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "test_case"
+  }, {
+    "name" : "修改用户信息",
+    "url" : "/ucenter/user/admin/modify/basic",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('financier_login')" ]
+  },
+  "source" : "c31d9f2847ba20bd.json",
+  "parameterValues" : [ ]
+}

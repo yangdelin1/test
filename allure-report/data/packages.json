@@ -5,56 +5,77 @@
     "name" : "test_test",
     "children" : [ {
       "name" : "test_tt",
-      "uid" : "acdc71380fc774ea",
+      "uid" : "a9d9b4ee1dfb82ab",
       "parentUid" : "f19d5ff91f28e1c1d3bef9a83ebe2e7b",
       "status" : "passed",
       "time" : {
-        "start" : 1637215892662,
-        "stop" : 1637215892662,
+        "start" : 1637653370347,
+        "stop" : 1637653370347,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
+      "retriesCount" : 7,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_mm",
-      "uid" : "e586be7066887b96",
+      "uid" : "389bbb48a2ca9b48",
       "parentUid" : "f19d5ff91f28e1c1d3bef9a83ebe2e7b",
       "status" : "passed",
       "time" : {
-        "start" : 1637215892665,
-        "stop" : 1637215892665,
-        "duration" : 0
+        "start" : 1637653370350,
+        "stop" : 1637653370351,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
+      "retriesCount" : 7,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_ff",
-      "uid" : "902719ee91e5f9be",
+      "uid" : "8d15d251a90dda0e",
       "parentUid" : "f19d5ff91f28e1c1d3bef9a83ebe2e7b",
       "status" : "passed",
       "time" : {
-        "start" : 1637215892669,
-        "stop" : 1637215892669,
+        "start" : 1637653370358,
+        "stop" : 1637653370358,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
+      "retriesCount" : 7,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
     "uid" : "f19d5ff91f28e1c1d3bef9a83ebe2e7b"
+  }, {
+    "name" : "testcase.api_test.test_user",
+    "children" : [ {
+      "name" : "test_update_user",
+      "uid" : "c29fb9a7c48f396d",
+      "parentUid" : "5d40c38aaa0515e3a17ce08fb6b9f02e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637653371162,
+        "stop" : 1637653371606,
+        "duration" : 444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.api_test.test_user"
   } ]
 }

@@ -3,17 +3,19 @@ from core.result_base import ResultBase
 from api.user import user
 from common.logger import run_log as logger
 from common.read_data import data
+import urllib3
+urllib3.disable_warnings()
 
 header = data.getJson_value('Headers','/Users/rootant/PycharmProjects/test/data/user.json')
 user_edit_data = data.getJson_value('edit_user','/Users/rootant/PycharmProjects/test/data/user.json')
 
-def get_edit_user_info():
+def get_edit_user_info(token):
     '''
     获取编辑User的信息
     :return:
     '''
     result = ResultBase()
-    res = user.edit_user(json=user_edit_data,headers=header)
+    res = user.edit_user(json=user_edit_data,headers=header,cookies = token)
     result.success = False
     if res.json()['code'] ==0:
         result.success = True
@@ -26,4 +28,4 @@ def get_edit_user_info():
     return result
 
 # if __name__ == '__main__':
-#     print(get_edit_user_info())
+#     print(get_edit_user_info().sueecss)

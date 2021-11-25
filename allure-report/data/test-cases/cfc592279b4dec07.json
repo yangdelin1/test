@@ -1,11 +1,11 @@
 {
-  "uid" : "acdc71380fc774ea",
-  "name" : "test_tt",
-  "fullName" : "test_test.TestModel#test_tt",
-  "historyId" : "4a1d171b8961c98aedb374592f4282fe",
+  "uid" : "cfc592279b4dec07",
+  "name" : "test_ff",
+  "fullName" : "test_test.TestModel#test_ff",
+  "historyId" : "aedc552ca233ab2483cbc81bd3ff716c",
   "time" : {
-    "start" : 1637215892662,
-    "stop" : 1637215892662,
+    "start" : 1637652036901,
+    "stop" : 1637652036901,
     "duration" : 0
   },
   "status" : "passed",
@@ -18,71 +18,71 @@
   "beforeStages" : [ {
     "name" : "xunit_setup_module_fixture_test_test",
     "time" : {
-      "start" : 1637215892656,
-      "stop" : 1637215892656,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
-    "name" : "xunit_setup_method_fixture_TestModel",
-    "time" : {
-      "start" : 1637215892657,
-      "stop" : 1637215892657,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "shouldDisplayMessage" : false
-  } ],
-  "afterStages" : [ {
-    "name" : "xunit_setup_method_fixture_TestModel::0",
-    "time" : {
-      "start" : 1637215892662,
-      "stop" : 1637215892663,
+      "start" : 1637652036886,
+      "stop" : 1637652036887,
       "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   }, {
-    "name" : "xunit_setup_module_fixture_test_test::0",
+    "name" : "xunit_setup_method_fixture_TestModel",
     "time" : {
-      "start" : 1637215892671,
-      "stop" : 1637215892671,
+      "start" : 1637652036900,
+      "stop" : 1637652036900,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
-    "attachmentsCount" : 0,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestModel::0",
+    "time" : {
+      "start" : 1637652036901,
+      "stop" : 1637652036901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_module_fixture_test_test::0",
+    "time" : {
+      "start" : 1637652036902,
+      "stop" : 1637652036903,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "feature",
     "value" : "模型测试模块"
   }, {
     "name" : "story",
-    "value" : "测试test_tt"
+    "value" : "测试test_ff"
   }, {
     "name" : "suite",
     "value" : "test_test"
@@ -94,7 +94,7 @@
     "value" : "RootAntdeMac-mini.local"
   }, {
     "name" : "thread",
-    "value" : "31356-MainThread"
+    "value" : "6351-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -110,14 +110,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "acdc71380fc774ea.json",
+  "source" : "cfc592279b4dec07.json",
   "parameterValues" : [ ]
 }

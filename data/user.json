@@ -6,7 +6,7 @@
     "Host":"dev-api.banco.com.sg",
     "Origin":"https://dev.banco.com.sg"
   },
-  "login":{
+  "financier_login":{
     "account": "financier_admin@rootant.com",
     "password": "Rt123456!"
   },
