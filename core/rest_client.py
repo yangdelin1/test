@@ -1,12 +1,8 @@
 # coding:utf-8
 import requests
-import urllib3
 import json as complexjson
 from common.logger import run_log as logger
-from requests.packages.urllib3.exceptions import InsecureRequestWarning
-requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+import urllib3
 urllib3.disable_warnings()
 
 class RestClient():

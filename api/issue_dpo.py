@@ -17,6 +17,9 @@ class Issue_dpo(RestClient):
     def upload_document(self,**kwargs):
         return self.post("/ucenter/document",**kwargs)
 
+    def issue_document_list(self,**kwargs):
+        return self.get("/ucenter/document/dpo/list",**kwargs)
+
     def issue_verify(self,**kwargs):
         return self.post("/obligation/enterprise/letter/issue.json/verify",**kwargs)
 

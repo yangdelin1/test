@@ -9,10 +9,15 @@ import urllib3
 
 urllib3.disable_warnings()
 
+file_path = '/Users/rootant/PycharmProjects/test/data/issue.json'
 header = data.getJson_value('Headers', '/Users/rootant/PycharmProjects/test/data/user.json')
-issue_verify_data = data.getJson_value('issue_verify_data', '/Users/rootant/PycharmProjects/test/data/issue.json')
+issue_verify_data = data.getJson_value('issue_verify_data', filename=file_path)
+get_attachment_data = data.getJson_value('get_attachment_data',filename=file_path)
 
-
+def get_attachment_id(token):
+    result = ResultBase()
+    parameters = get_attachment_data
+    res = Issue_dpo.issue_document_list(params=parameters,headers=header,cookies= token)
 def issue_verify_info(token):
     result = ResultBase()
     issue_data = issue_verify_data

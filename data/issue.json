@@ -33,5 +33,11 @@
       "goods_description":"Goods description",
       "issuance_date":"2021-11-30",
       "payment_due_date":"2021-11-25"}
-    ]}
+    ]},
+  "get_attachment_data":{
+    "receiver_cid":"Nm7FHNF483YQyt53RQsGM",
+    "category_id":"1",
+    "page":"1",
+    "limit":"10"
+  }
 }

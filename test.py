@@ -13,13 +13,21 @@ header = {
     "Platform": "app.banco.com.sg",
 }
 data = {
-    "account": "financier_admin@rootant.com",
+    "account": "vvvwem61@gmail.com",
     "password": "Rt123456!"
 }
+params = {
+    "receiver_cid":"Nm7FHNF483YQyt53RQsGM",
+    "category_id":"1",
+    "page":"1",
+    "limit":"10"
+}
+urlC = 'https://dev-api.banco.com.sg/ucenter/document/dpo/list'
 
 urlB = url + url_A
 print(urlB)
 res = requests.post(url=urlB,headers=header,json=data)
 print(res.cookies)
 data = get_edit_user_info(token = res.cookies)
-print(data.response.json().get("message"))
+resA = requests.get(url=urlC,params=params,cookies=res.cookies,headers=header)
+print(resA.json())

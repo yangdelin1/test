@@ -1,0 +1,125 @@
+[2021-11-26 15:51:35.266579] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-26 15:51:35.267105] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-11-26 15:51:35.267280] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-26 15:51:35.267434] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:51:35.267569] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-11-26 15:51:35.267702] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:51:35.267822] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-11-26 15:51:35.267995] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-11-26 15:51:35.700631] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":1001,"data":"Session expired","message":"session_expired","messageDetail":"Session expired","success":false}
+[2021-11-26 15:52:53.005675] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-26 15:52:53.007850] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-11-26 15:52:53.008106] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-26 15:52:53.008303] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:52:53.008468] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-11-26 15:52:53.008613] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:52:53.008735] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-11-26 15:52:53.008918] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-11-26 15:52:53.430809] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":1001,"data":"Session expired","message":"session_expired","messageDetail":"Session expired","success":false}
+[2021-11-26 15:53:08.034056] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-26 15:53:08.034443] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-11-26 15:53:08.034620] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-26 15:53:08.034788] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:53:08.034974] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-11-26 15:53:08.035117] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:53:08.035305] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-11-26 15:53:08.035912] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-11-26 15:53:08.466707] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":1001,"data":"Session expired","message":"session_expired","messageDetail":"Session expired","success":false}
+[2021-11-26 15:54:42.665479] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-26 15:54:42.667608] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-11-26 15:54:42.667839] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-26 15:54:42.668008] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:54:42.668152] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-11-26 15:54:42.668343] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 15:54:42.668472] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-11-26 15:54:42.668592] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-11-26 15:54:42.980397] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":1000,"data":"Permission denied","message":"permission_denied","messageDetail":"Permission denied","success":false}
+[2021-11-26 16:04:08.379363] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-11-26 16:04:08.381646] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-11-26 16:04:08.381872] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-11-26 16:04:08.382037] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 16:04:08.382179] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-11-26 16:04:08.382372] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-11-26 16:04:08.382503] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-11-26 16:04:08.382631] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-11-26 16:04:08.818737] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":1000,"data":"Permission denied","message":"permission_denied","messageDetail":"Permission denied","success":false}
