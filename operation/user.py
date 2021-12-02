@@ -26,6 +26,6 @@ def get_edit_user_info(token):
     logger.info("注册用户 ==>> 返回结果 ==>> {}".format(result.response.text))
 
     return result
-
+#
 # if __name__ == '__main__':
 #     print(get_edit_user_info().sueecss)

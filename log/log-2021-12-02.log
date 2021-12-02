@@ -1,0 +1,46 @@
+[2021-12-02 18:06:56.688627] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/login
+[2021-12-02 18:06:56.691175] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-12-02 18:06:56.691447] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-12-02 18:06:56.691728] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "account": "financier_admin@banco.com",
+    "password": "Rt123456!"
+}
+[2021-12-02 18:06:56.692614] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-12-02 18:06:56.693162] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "account": "financier_admin@banco.com",
+    "password": "Rt123456!"
+}
+[2021-12-02 18:06:56.693449] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-12-02 18:06:56.693645] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-12-02 18:06:57.621073] [INFO] [test_user.py] [test_update_user] [26] *************** 开始执行用例 ***************
+[2021-12-02 18:06:57.622770] [INFO] [test_user.py] [step_login] [11] 前置登录步骤 ==>> 管理员 12341 登录 ==>> 返回的 token 为：<RequestsCookieJar[<Cookie locale=en-us for dev-api.banco.com.sg/>, <Cookie session_token={"token":"JDJhJDEyJFpkb3ZmUThwQnBrdHEza1c3cmZtei5RM2hKV0ZVa3lHbFBKSVBvdHpmTUMxdldXaFhWYWd5"} for dev-api.banco.com.sg/>, <Cookie session_token.sig=tm4AxLLc-Viac7Y2MRVasuY3Dzvsf8ZhmDfNy2OCqI8 for dev-api.banco.com.sg/>]>
+[2021-12-02 18:06:57.623059] [INFO] [rest_client.py] [request_log] [53] 接口请求地址 ==>> https://dev-api.banco.com.sg/ucenter/user/admin/modify/basic
+[2021-12-02 18:06:57.623198] [INFO] [rest_client.py] [request_log] [54] 接口请求方式 ==>> POST
+[2021-12-02 18:06:57.623365] [INFO] [rest_client.py] [request_log] [56] 接口请求头 ==>> {
+    "content-type": "application/json; charset=utf-8",
+    "Platform": "app.banco.com.sg",
+    "Host": "dev-api.banco.com.sg",
+    "Origin": "https://dev.banco.com.sg"
+}
+[2021-12-02 18:06:57.623552] [INFO] [rest_client.py] [request_log] [57] 接口请求 params 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-12-02 18:06:57.623718] [INFO] [rest_client.py] [request_log] [58] 接口请求体 data 参数 ==>> null
+[2021-12-02 18:06:57.623919] [INFO] [rest_client.py] [request_log] [59] 接口请求体 json 参数 ==>> {
+    "first_name": "Lynn",
+    "last_name": "f1",
+    "department": "d11",
+    "user_id": 9
+}
+[2021-12-02 18:06:57.624065] [INFO] [rest_client.py] [request_log] [60] 接口上传附件 files 参数 ==>> None
+[2021-12-02 18:06:57.624226] [INFO] [rest_client.py] [request_log] [61] 接口 cookies 参数 ==>> null
+[2021-12-02 18:06:58.089527] [INFO] [user.py] [get_edit_user_info] [26] 注册用户 ==>> 返回结果 ==>> {"code":0,"data":true,"message":"success","messageDetail":"Success","success":true}
+[2021-12-02 18:06:58.089820] [INFO] [test_user.py] [test_update_user] [33] *************** 结束执行用例 ***************
