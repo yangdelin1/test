@@ -33,5 +33,5 @@ class TestUpdate():
         logger.info("*************** 结束执行用例 ***************")
 
 #
-if __name__ == '__main__':
-    pytest.main("-q", "-s", "test_user.py")
+# if __name__ == '__main__':
+#     pytest.main("-q", "-s", "test_user.py")
