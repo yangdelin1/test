@@ -13,8 +13,7 @@ header = {
     "Platform": "app.banco.com.sg",
 }
 data = {
-    "account": "vvvwem61@gmail.com",
-    "password": "Rt123456!"
+    
 }
 params = {
     "receiver_cid":"Nm7FHNF483YQyt53RQsGM",
