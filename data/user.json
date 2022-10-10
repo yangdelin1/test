@@ -6,8 +6,8 @@
     "Origin":"https://dev.banco.com.sg"
   },
   "financier_login":{
-    "account": "financier_admin@banco.com",
-    "password": "Rt123456!"
+    "account": "",
+    "password": ""
   },
   "edit_user": {
     "first_name": "Lynn",
